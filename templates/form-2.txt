@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Project2- Suicide</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<script src="../static/js/jquery.min.js"></script>
+		<script src="../static/js/skel.min.js"></script>
+		<script src="../static/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="./static/css/style.css" />
+		</noscript>
+
+	</head>
+	<body id="top" >
+
+		<!-- Header -->
+			<header id="header" >
+				<h1><a href="index.html">Home</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="chart.html">Charts and Maps</a></li>
+						<li><a href="form.html">Form</a></li>
+						
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" >
+				<header class="major">
+					<div class="image fit">
+					<img src="images/13.jpg" alt="Suicide" style="height:200px" style="display:block" /></div>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="4u">
+							<section>
+								
+								<div id="form1">form</div>
+								
+							</section>
+							<hr />
+							<section>
+								<h3><strong>Result</strong> </h3>
+								
+							</section>
+						</div>
+						<div class="8u skel-cell-important">
+							<section>
+								
+								<a href="#" class="image fit2"><img src="images/13.png" alt="" /></a>
+								<h2  id="pub1"><strong>What Is Suicide?</strong> </h2>
+								<p>Suicide is when people direct violence at themselves with the intent to end their lives, and they die because of their actions. It’s best to avoid the use of terms like “committing suicide” or a “successful suicide” when referring to a death by suicide as these terms often carry negative connotations.
+									
+									A suicide attempt is when people harm themselves with the intent to end their lives, but they do not die because of their actions.</p>
+									
+							</section>
+						</div>
+					</div>
+					<hr class="major" />
+					<div class="row">
+							<div class="6u">
+									<section class="special">
+											<a href="http://www.sprc.org/resources-programs/dialectical-behavior-therapy"> <img src="images/17.PNG"  alt="Options and Therapies" /></a>
+										<h3><strong> Options and Therapies</strong></h3>
+										<p>Effective suicide intervention practices are based on research findings and tested to see how various programs benefit various specific groups of people. For example, research has shown that borderline personality disorder is a risk factor for suicidal behavior, and there are programs that are effective in reducing suicide attempts.</p>
+										<ul class="actions">
+											<li><a href="http://www.sprc.org/resources-programs/dialectical-behavior-therapy" class="button alt"><strong> Learn More</strong> </a></li>
+										</ul>
+									</section>
+								</div>
+						<div class="6u">
+							<section class="special">
+									<a href="https://findtreatment.samhsa.gov/"> <img src="images/19.png" /></a>
+								<h3><strong>Help</strong> </h3>
+								<p>The Substance Abuse and Mental Health Services Administration (SAMHSA) provides this online resource for locating mental health treatment facilities and programs. The Mental Health Treatment Locator section of the Behavioral Health Treatment Services Locator lists facilities providing mental health services to persons with mental illness.
+							
+								<ul class="actions">
+									<li><a href="https://findtreatment.samhsa.gov/" class="button alt"><strong>Find a facility in your state</strong> </a></li>
+								</ul>
+							</section>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<div class="6u">
+							<div class="row collapse-at-2">
+								<div class="6u">
+									<h3>About Us</h3>
+									<ul class="alt">
+										<li><a href="http://www.linkedin.com/in/simon-alizadeh">Simon Alizadeh</a></li>
+										<li><a href="#">Lalita Eranki</a></li>
+										<li><a href="https://github.com/Pghareh22">Parno Ghareh</a></li>
+										<li><a href="https://github.com/csasik">Chithra Kumar</a></li>
+									</ul>
+								</div>
+								
+							</div>
+						</div>
+						<div class="6u">
+							<h2>Aliquam Interdum</h2>
+							<p>Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
+							
+						</div>
+					</div>
+					<ul class="copyright">
+						<li>&copy;UCI Coding Bootcamp 2018</li>
+						
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>

@@ -1,0 +1,26 @@
+code,circumstance,male_death_count,male_death_pct,female_death_count,female_death_pct
+C1,Total number of victims,18959,100,5695,100
+C1,Victims with known circumstances,17241,90.94,5321,93.43
+C1,Victims with unknown circumstances,1718,9.06,374,6.57
+C1,Person left a suicide note,5522,32.03,2102,39.5
+C2,Current Mental Health Problem,7767,45.05,3438,64.61
+C2,Current Depressed Mood,6515,37.79,1926,36.2
+C2,Ever Treated for Mental Problem,5701,33.07,2737,51.44
+C2,Disclosed intent to commit suicide,4153,24.09,1208,22.7
+C2,Current treatment for mental illness,4047,23.47,2162,40.63
+C2,History of Suicide Attempts,2897,16.8,1758,33.04
+C3,Other death of friend or family,1021,5.92,380,7.14
+C3,Suicide of friend or family in past five years,393,2.28,148,2.78
+C3,Other relationship problem,362,2.1,128,2.41
+C3,Crisis in past 2 weeks,5503,31.92,1482,27.85
+C3,Intimate partner problem,4850,28.13,1341,25.2
+C4,Eviction or loss of home,691,4.01,200,3.76
+C3,Job problem,1970,11.43,366,6.88
+C3,Recent criminal legal problem,1627,9.44,242,4.55
+C4,Financial problem,1609,9.33,370,6.95
+C3,Other legal problems,593,3.44,160,3.01
+C3,School problem,274,1.59,91,1.71
+C5,Physical health problem,3942,22.86,1216,22.85
+C6,Alcohol Dependence,3240,18.79,809,15.2
+C6,Other Substance Problem,2813,16.32,994,18.68
+C6,Other suicide circumstance,2475,14.36,758,14.25

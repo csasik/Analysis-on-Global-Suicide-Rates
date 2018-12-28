@@ -1,0 +1,202 @@
+[
+ {
+   "code": "C1",
+   "circumstance": "Total number of victims",
+   "male_death_count": 18959,
+   "male_death_pct": 100,
+   "female_death_count": 5695,
+   "female_death_pct": 100
+ },
+ {
+   "code": "C1",
+   "circumstance": "Victims with known circumstances",
+   "male_death_count": 17241,
+   "male_death_pct": 90.94,
+   "female_death_count": 5321,
+   "female_death_pct": 93.43
+ },
+ {
+   "code": "C1",
+   "circumstance": "Victims with unknown circumstances",
+   "male_death_count": 1718,
+   "male_death_pct": 9.06,
+   "female_death_count": 374,
+   "female_death_pct": 6.57
+ },
+ {
+   "code": "C1",
+   "circumstance": "Person left a suicide note",
+   "male_death_count": 5522,
+   "male_death_pct": 32.03,
+   "female_death_count": 2102,
+   "female_death_pct": 39.5
+ },
+ {
+   "code": "C2",
+   "circumstance": "Current Mental Health Problem",
+   "male_death_count": 7767,
+   "male_death_pct": 45.05,
+   "female_death_count": 3438,
+   "female_death_pct": 64.61
+ },
+ {
+   "code": "C2",
+   "circumstance": "Current Depressed Mood",
+   "male_death_count": 6515,
+   "male_death_pct": 37.79,
+   "female_death_count": 1926,
+   "female_death_pct": 36.2
+ },
+ {
+   "code": "C2",
+   "circumstance": "Ever Treated for Mental Problem",
+   "male_death_count": 5701,
+   "male_death_pct": 33.07,
+   "female_death_count": 2737,
+   "female_death_pct": 51.44
+ },
+ {
+   "code": "C2",
+   "circumstance": "Disclosed intent to commit suicide",
+   "male_death_count": 4153,
+   "male_death_pct": 24.09,
+   "female_death_count": 1208,
+   "female_death_pct": 22.7
+ },
+ {
+   "code": "C2",
+   "circumstance": "Current treatment for mental illness",
+   "male_death_count": 4047,
+   "male_death_pct": 23.47,
+   "female_death_count": 2162,
+   "female_death_pct": 40.63
+ },
+ {
+   "code": "C2",
+   "circumstance": "History of Suicide Attempts",
+   "male_death_count": 2897,
+   "male_death_pct": 16.8,
+   "female_death_count": 1758,
+   "female_death_pct": 33.04
+ },
+ {
+   "code": "C3",
+   "circumstance": "Other death of friend or family",
+   "male_death_count": 1021,
+   "male_death_pct": 5.92,
+   "female_death_count": 380,
+   "female_death_pct": 7.14
+ },
+ {
+   "code": "C3",
+   "circumstance": "Suicide of friend or family in past five years",
+   "male_death_count": 393,
+   "male_death_pct": 2.28,
+   "female_death_count": 148,
+   "female_death_pct": 2.78
+ },
+ {
+   "code": "C3",
+   "circumstance": "Other relationship problem",
+   "male_death_count": 362,
+   "male_death_pct": 2.1,
+   "female_death_count": 128,
+   "female_death_pct": 2.41
+ },
+ {
+   "code": "C3",
+   "circumstance": "Crisis in past 2 weeks",
+   "male_death_count": 5503,
+   "male_death_pct": 31.92,
+   "female_death_count": 1482,
+   "female_death_pct": 27.85
+ },
+ {
+   "code": "C3",
+   "circumstance": "Intimate partner problem",
+   "male_death_count": 4850,
+   "male_death_pct": 28.13,
+   "female_death_count": 1341,
+   "female_death_pct": 25.2
+ },
+ {
+   "code": "C4",
+   "circumstance": "Eviction or loss of home",
+   "male_death_count": 691,
+   "male_death_pct": 4.01,
+   "female_death_count": 200,
+   "female_death_pct": 3.76
+ },
+ {
+   "code": "C3",
+   "circumstance": "Job problem",
+   "male_death_count": 1970,
+   "male_death_pct": 11.43,
+   "female_death_count": 366,
+   "female_death_pct": 6.88
+ },
+ {
+   "code": "C3",
+   "circumstance": "Recent criminal legal problem",
+   "male_death_count": 1627,
+   "male_death_pct": 9.44,
+   "female_death_count": 242,
+   "female_death_pct": 4.55
+ },
+ {
+   "code": "C4",
+   "circumstance": "Financial problem",
+   "male_death_count": 1609,
+   "male_death_pct": 9.33,
+   "female_death_count": 370,
+   "female_death_pct": 6.95
+ },
+ {
+   "code": "C3",
+   "circumstance": "Other legal problems",
+   "male_death_count": 593,
+   "male_death_pct": 3.44,
+   "female_death_count": 160,
+   "female_death_pct": 3.01
+ },
+ {
+   "code": "C3",
+   "circumstance": "School problem",
+   "male_death_count": 274,
+   "male_death_pct": 1.59,
+   "female_death_count": 91,
+   "female_death_pct": 1.71
+ },
+ {
+   "code": "C5",
+   "circumstance": "Physical health problem",
+   "male_death_count": 3942,
+   "male_death_pct": 22.86,
+   "female_death_count": 1216,
+   "female_death_pct": 22.85
+ },
+ {
+   "code": "C6",
+   "circumstance": "Alcohol Dependence",
+   "male_death_count": 3240,
+   "male_death_pct": 18.79,
+   "female_death_count": 809,
+   "female_death_pct": 15.2
+ },
+ {
+   "code": "C6",
+   "circumstance": "Other Substance Problem",
+   "male_death_count": 2813,
+   "male_death_pct": 16.32,
+   "female_death_count": 994,
+   "female_death_pct": 18.68
+ },
+ {
+   "code": "C6",
+   "circumstance": "Other suicide circumstance",
+   "male_death_count": 2475,
+   "male_death_pct": 14.36,
+   "female_death_count": 758,
+   "female_death_pct": 14.25
+ }
+]

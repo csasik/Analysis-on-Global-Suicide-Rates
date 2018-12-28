@@ -1,0 +1,109 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+    h1 {
+        color: whitesmoke;
+        font-family: verdana;
+        font-size: 150%;
+        display: inline;
+      }
+      h3 {
+        color: whitesmoke;
+        font-family: verdana;
+        font-size: 200%;
+        display: inline;
+      }
+      h6 {
+        color: whitesmoke;
+        font-family: verdana;
+        font-size: 50%;
+      }
+#quiz {
+    
+    background: #666f77;
+    padding: 1%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+input {
+    margin-bottom: 20px;
+    display: block;
+}
+
+select{
+
+   background: rgba(0,0,0,0.3);
+   color:#FFF;
+   text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+option:not(:checked) {
+   background-color: white;
+    color:#000;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+#button {
+    background:#96cccc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+}
+
+
+
+#button:hover {
+    background: #ef8376;
+    border: 1px solid green;
+    color: black;
+    cursor: pointer;
+
+}
+
+#after_submit {
+    visibility: hidden;
+    background: #666f77;  
+    padding: 2%;
+    width: 100%;
+    border-radius: 20px;
+    height: 550px;
+}
+#quoteDisplay{
+    background:#666f77;
+    border-radius: 20px;
+    padding: 2%;
+    width: 100%;
+    height: 300px;
+}
+
+#picture {
+    width: 300px;
+    height: 200px;
+}
+
+ /* set map, body, and html to 100% of the screen size */
+
+#mapgeo
+{
+    
+    height: 300px;
+    float: left;
+
+    border-radius: 20px;
+    padding: 2%;
+    width: 100%;
+}
+#image{
+    background: url("/static/images/result.png");
+    width:100%;
+    height: 80%
+
+}
+

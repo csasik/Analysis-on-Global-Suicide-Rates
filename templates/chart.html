@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>charts </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/css/main2.css" />
+		<noscript><link rel="stylesheet" href="/static/css/noscript2.css" /></noscript>
+		<link href="https://d3-geomap.github.io//d3-geomap/css/d3.geomap.css" rel="stylesheet">
+   <script src="https://d3-geomap.github.io//d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
+   <script src="https://d3-geomap.github.io//d3-geomap/js/d3.geomap.min.js"></script>
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1>Charts and Maps</h1>
+								<hr />
+								
+							</header>
+							<footer>
+								<a href="#banner" class="button circled scrolly">Start</a>
+							</footer>
+						</div>
+
+					
+		<!-- Header -->
+			<header id="header2" >
+					
+					<nav id="nav">
+						<ul>
+							<li><a href="/index">Home</a></li>
+							<li><a href="/chart">Charts and Maps</a></li>
+							<li><a href="/form">Form</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+	
+				</div>
+
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>Suicide Infographics</h2>
+						<p>
+							There are more deaths from suicide than from war and homicide together!!!!!
+						</p>
+					</header>
+				</section>
+
+			<!-- Carousel -->
+				<section class="carousel">
+					<div class="reel">
+
+						<article>
+							<a href="#main" class="image featured"><img src="/static/images/map.png" alt="" /></a>
+							<header>
+								<h3><a href="#main">Suicide Rates by Country</a></h3>
+							</header>
+							     <p>Suicides rate per 100,000 people per year </p>
+						</article>
+
+						<article>
+							<a href="#main2" class="image featured"><img src="/static/images/age.png" alt="" /></a>
+							<header>
+								<h3><a href="#main2">Suicide Rates by Age</a></h3>
+							</header>
+							<p>These are measured as the number of suicides per 100,000 people</p>
+						</article>
+
+						<article>
+							<a href="#main3" class="image featured"><img src="/static/images/gender.png" alt="" /></a>
+							<header>
+								<h3><a href="#main3">Suicide by Gender</a></h3>
+							</header>
+							<p>Male anf Female suicide rates in different countries</p>
+						</article>
+
+						<article>
+							<a href="#main4" class="image featured"><img src="/static/images/factors.png" alt="" /></a>
+							<header>
+								<h3><a href="#main4">Factors Leading to Suicide</a></h3>
+							</header>
+							<p>The most important risk factors leading to suicide</p>
+						</article>
+
+						<article>
+								
+							<a href="/form#questions" class="image featured"><img src="/static/images/quiz.png" alt="" /></a>
+							<header>
+								<h3><a href="/form#questions">Suicide Behavior Quiz</a></h3>
+							</header>
+							<p>Take this quiz if you're worried that you may be suicidal.</p>
+						</article>
+
+						<article>
+							<a href="/form#motivate" class="image featured"><img src="/static/images/motivation.jpg" alt="" /></a>
+							<header>
+								<h3><a href="/form#motivate">Motivational Quotes</a></h3>
+							</header>
+							<p>Exceptionally Motivational Quotes to Help Prevent Suicidal Thoughts</p>
+						</article>
+
+						<article>
+							<a href="/form#hospitalmap" class="image featured"><img src="/static/images/hospital.png" alt="" /></a>
+							<header>
+								<h3><a href="/form#hospitalmap">Find a Hospital</a></h3>
+							</header>
+							<p>Get Treated Fast.Find the closest Hospital.</p>
+						</article>
+
+						<article>
+								<a href="#preventing" class="image featured"><img src="/static/images/prevention.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#preventing">Preventing Suicide</a></h3>
+								</header>
+								<p>Suicide prevention starts with recognizing the warning signs.</p>
+							</article>
+
+						
+
+					</div>
+				</section>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+
+					<article id="main" class="container special">
+						<div class="map2">
+							<div id="map"></div>
+						<header>
+							<h2>Suicide Rates by Country</h2>
+							
+								<p>Data source: <a href="https://www.who.int/mental_health/prevention/suicide/countrydata/en/">World Health Org Suicide Data</a><br>Suicides per 100,000 people per year. The rate is adjusted for the chaning age structure of the population.</p>						</header>
+								
+							
+
+						<article id="main2" , style="width: 100%" >
+							
+								<div  class="container" id="charts">
+
+
+									
+									<div class="row">
+											<div class="col-md-2" style="float:left; width: 20%">
+											  <h3>Select a Country:</h3>
+								   
+											  
+											  <select id="country_list" onchange="getCountry(this.value)"></select>
+											  <script src="{{ url_for('static', filename='js/suicide_by_age.js') }}"></script>
+											 
+											</div>
+										<div class="col-md-8" id="plot" style="float:right; width: 80%"></div>
+									</div>		
+									<div style="clear:both"></div>
+							<header>
+								<h2>Suicide Rates by Age</h2>
+									<p>Data source: <a href="https://www.who.int/mental_health/prevention/suicide/countrydata/en/">World Health Org Suicide Data</a></p>
+							</header>
+							<p>The visualisation shows IHME estimates on suicide rates broken down by age category
+								(with the total and age-standardized rates also shown).
+								These are measured as the number of suicides per 100,000 people.
+								(Age stabdardization assumes a constant population age and structure
+								to allow comparison between countries and with time without
+								the aeefects of a changing age distribution within a population.) </p>
+								
+
+							<article id="main3" , style="width: 100%" >
+							
+								<div  class="container" id="charts2">
+
+										<div class="row">
+												<div class="col-md-2" style="float:left; width: 20%">
+												  <h3>Select a Country:</h3>
+									   
+												  
+
+														<select id="list2" onchange="optionChanged2(this.value)"></select>
+														
+														<script src="{{ url_for('static', filename='js/death.js') }}"></script>
+													</div>
+											
+												 
+												
+											<div class="col-md-8" id="death" style="float:right; width: 80%"></div>
+										</div>		
+										<div style="clear:both"></div>
+
+								
+								<header>
+									<h2>Suicide Rates by Gender </h2>
+									<p>This chart presents trends in suicide rates by gender for a number of countries: we can see that the rates for males do not track those for females.</p>
+								</header>
+								<p>
+									As we can see, in most countries the ratio is larger than one; and male suicide rates are more than 3 times higher than rates for females in most high-income countries. </p>
+
+
+								<article id="main4" ,style="width: 100%">
+									<div  class="container" id="stats">
+											<div class="row">
+												<div  class="col-md-2" style="float:left; width: 20%"  >
+													<h3>Stats</h3>
+									
+										
+														<div id = "factor_list">
+															<li class="filter list-group-item">
+																<label for="Indicators">Select an Indicator</label>
+																<select id="indicator" class="form-control" onchange="getFactor(this.value)">
+																<option value="C1">Facts</option>
+																<option value="C2">Mental Health</option>
+																<option value="C6">Alcohol/Drug</option>
+																<option value="C3">Social/Family</option>
+																<option value="C4">Financial</option>
+																<option value="C5">Physical Health</option>
+
+																</select>
+															</li>
+														</div>
+												</div>
+
+												<div class="col-md-8" id="bar" style="float:right; width: 80%" ></div>
+
+											</div>
+									</div>
+									<div style="clear:both"></div>
+
+									<header>
+										<h2> Suicide Causes </h2>
+										<p>Suicide is an extremely complex issue, and while it is not possible to pin down its causes, there are some risk factors that have been identified in the academic literature, mainly through correlations.</p>
+									</header>
+									<p>
+										Depression and other mood disorders are widely recognized among the most important risk factors for suicide.  Alcohol abuse is strongly linked to death by suicide. In the US, in 2007 alcohol was involved in approximately a third of reported suicides. Most of the studies exploring the effect of the economy on suicide tend to focus on patterns for specific events in particular countries or regions. </p>
+	
+										<article id="main5" ,style="width: 100%">
+											
+																							
+												<div id="preventing">
+													<header>
+														<h2>Preventing Suicide is Possible</h2>
+														<p>
+															Suicide is a complex public health issue and requires coordination and cooperation among healthcare providers, individuals and family members, treatment services and other critical stakeholders.</p>
+													</header>
+															<p>
+																Suicidal thoughts, much like mental health conditions, can affect anyone regardless of age, gender or background. In fact, suicide is often the result of an untreated mental health condition. Suicidal thoughts, although common, should not be considered normal and often indicate more serious issues.
+									
+									Each year, more than 41,000 individuals die by suicide, leaving behind their friends and family members to navigate the tragedy of loss. In many cases, friends and families affected by a suicide loss (often called “suicide loss survivors”) are left in the dark. Too often the feelings of shame and stigma prevent them from talking openly.
+															</p>
+														</div>
+
+
+								
+						<footer>
+							<a href="https://save.org/find-help/" class="button">Continue Reading</a>
+						</footer>
+					</article>
+					<hr>
+				</div>
+				
+			
+			
+		<!-- Footer -->
+		
+		
+				<div class="container">
+						<div class="row">
+							
+								<img src="/static/images/team.gif" usemap="#image-map" style="float:right; width: 40%">
+
+								<map name="image-map">
+									<area target="_self" alt="Simon Alizadeh" title="Simon Alizadeh" href="http://www.linkedin.com/in/simon-alizadeh" coords="112,28,10,222" shape="rect">
+									<area target="_self" alt="Chithra Kumar" title="Chithra Kumar" href="https://github.com/csasik" coords="117,4,227,175" shape="rect">
+									<area target="_self" alt="Lalita Eranki" title="Lalita Eranki" href="https://github.com/Lalitaeranki" coords="425,5,320,181" shape="rect">
+									<area target="_self" alt="Parno Ghareh" title="Parno Ghareh" href="https://github.com/Pghareh22" coords="430,5,540,196" shape="rect">
+								</map>
+								<div >		
+									<img src="/static/images/us.jpg" style=" width:40%">
+								</div>
+								
+						</div>
+				</div>	
+				
+			
+				<div >
+						<ul  style="list-style: none;">
+							<li>&copy;UCI Coding Bootcamp 2018</li>
+							
+						</ul>
+				</div>
+		
+		
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.dropotron.min.js"></script>
+			<script src="/static/js/jquery.scrolly.min.js"></script>
+			<script src="/static/js/jquery.scrollex.min.js"></script>
+			<script src="/static/js/browser.min.js"></script>
+			<script src="/static/js/breakpoints.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<script src="/static/js/main.js"></script>
+			
+			
+			
+     <!-- JS  -->
+   <script type="text/javascript" src="/static/js/worldmap.js"></script>
+   <script type="text/javascript" src="/static/js/suicide_by_age.js"></script>
+   <script type="text/javascript" src="/static/js/death.js"></script>
+   <script src="/static/js/suicide_percentage.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+   <script type="text/javascript" src="/static/js/config.js"></script>
+	</body>
+</html>
+
+
+
